@@ -168,7 +168,7 @@ def roomD(user):
     print("Hmmm")
     choice = input("> ")
     
-    if re.search"[Nn][oO][Rr]", choice):
+    if re.search("[Nn][oO][Rr]", choice):
         roomA(user)
     elif re.search("[Ee][aA][Ss]", choice):
         roomE(user)
