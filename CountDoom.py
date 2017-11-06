@@ -182,7 +182,7 @@ def roomG(user):
             room_3(user)
         elif re.search("[Ee][aA][Ss]", choice):
             roomH(user)
-        elif re.search("[Nn][oO][Rr]" choice):
+        elif re.search("[Nn][oO][Rr]", choice):
             roomD(user)
         elif re.search("[Ss][mM][Ee]", choice):
             print("It smells strongly of stale. French. Bread.")
@@ -237,7 +237,7 @@ def roomI(user):
         roomI(user)
     elif re.search("[Ss][Ee][Aa]", choice):
         print("You find the remains of Grace Slick laying there..")
-        print("Appears she has been dead for quite a long time..."
+        print("Appears she has been dead for quite a long time...")
         print("You hear menacing laughter in the distance.. damn that Count Doom(TM)!")
         print("She is holding a note in her cold dead hands...")
         print("The note has a picture of a trout. 'Slap you with a trout' perhaps?")
